@@ -40,7 +40,7 @@ itemx.addProperty(parameter);
  
 
 node () {
-
+ checkout
     stage('Print env vars') {
 
     build job: 'testtt', parameters: [[$class: 'StringParameterValue', name: 'environment1', value: "Yes"], [$class: 'StringParameterValue', name: 'environment2', value: "Yes"], [$class: 'StringParameterValue', name: 'environment3', value: "Up"],[$class: 'StringParameterValue', name: 'environment4', value: "1.0.3-SNAPSHOT"],[$class: 'StringParameterValue', name: 'flag', value: "OFF"]]
