@@ -30,7 +30,7 @@ new StringParameterDefinition("environment1","Yes"),
 new StringParameterDefinition("environment2","Yes"), 
 new StringParameterDefinition("environment3","No"), 
 new StringParameterDefinition("environment4","0.0.1-SNAPSHOT"), 
-new StringParameterDefinition("flag","OFF") 
+new StringParameterDefinition("flag","OFF") kjh gkhj gkjh gkjh gkjh
 ] 
 */
 
